@@ -21,7 +21,11 @@ public class Main {
         System.out.println(sum);
     }
 
-
+    public static void printPermutation() {
+        for(int i = 0; i < selectedNums.size(); i++)
+            System.out.print(selectedNums.get(i) + " ");
+        System.out.println();
+    }
     public static void permutation(int sum) {
 
         int cnt = 0;
